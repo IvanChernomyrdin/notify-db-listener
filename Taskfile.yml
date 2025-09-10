@@ -1,0 +1,7 @@
+version: '3'
+
+tasks:
+  start:
+    desc: "Start the application"
+    cmds:
+      - go run ./cmd/main.go --config=./config/local.yaml
